@@ -6,10 +6,11 @@ var PORT = process.env.PORT || 8080;
 //Parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(express.static('public'));
 
 //Routing
 require("./routes/htmlRoutes")(app);
-require("./routes/apiRoutes")(app);
+// require("./routes/apiRoutes")(app);
 
 //Listening
 app.listen(PORT, function () {
