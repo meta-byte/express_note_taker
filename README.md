@@ -7,7 +7,7 @@ This application was created to test my ability to use Express to create a serve
 
 ## Hosted
 This app is hosted courtesy of Heroku. Click [here](https://limitless-sierra-31399.herokuapp.com/) to view the live app. 
-* Notes can be seen by anyone who accesses the application, please be considerate *
+* *Notes can be seen by anyone who accesses the application, please be considerate.*
 
 
 ## Tech and Features Used
