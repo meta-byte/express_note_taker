@@ -9,7 +9,7 @@ module.exports = function (app) {
         fs.readFile(database, "utf8", function (err, notes) {
             if (err) throw err
             else {
-                console.log("Getting Notes")
+                console.log("Getting notes...")
                 notes = JSON.parse(notes)
                 return res.json(notes);
             }
@@ -81,7 +81,6 @@ module.exports = function (app) {
 
         });
     });
-
 
 };
 
